@@ -1,0 +1,6 @@
+artifact_location: file:///d:/AI/MLOps/EYMAY23/MLOps-with-Azure/mlruns/738194057631278017
+creation_time: 1683524677966
+experiment_id: '738194057631278017'
+last_update_time: 1683524677966
+lifecycle_stage: active
+name: churn_prediction
