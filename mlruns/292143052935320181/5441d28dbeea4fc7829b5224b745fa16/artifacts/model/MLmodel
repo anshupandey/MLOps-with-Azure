@@ -1,0 +1,25 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.2.1
+mlflow_version: 2.3.1
+model_uuid: be2acd59b0d048278632e5ad745b9162
+run_id: 5441d28dbeea4fc7829b5224b745fa16
+signature:
+  inputs: '[{"name": "CreditScore", "type": "long"}, {"name": "Geography", "type":
+    "string"}, {"name": "Gender", "type": "string"}, {"name": "Age", "type": "long"},
+    {"name": "Balance", "type": "double"}, {"name": "NumOfProducts", "type": "long"},
+    {"name": "IsActiveMember", "type": "long"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+utc_time_created: '2023-05-09 04:18:10.882573'

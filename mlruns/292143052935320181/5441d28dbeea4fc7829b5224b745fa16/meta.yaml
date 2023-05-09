@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/AI/MLOps/EYMAY23/MLOps-with-Azure/mlruns/292143052935320181/5441d28dbeea4fc7829b5224b745fa16/artifacts
+end_time: 1683607640369
+entry_point_name: ''
+experiment_id: '292143052935320181'
+lifecycle_stage: active
+run_id: 5441d28dbeea4fc7829b5224b745fa16
+run_name: Run1
+run_uuid: 5441d28dbeea4fc7829b5224b745fa16
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683605889413
+status: 3
+tags: []
+user_id: anshu

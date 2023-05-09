@@ -1,0 +1,29 @@
+artifact_path: churn_model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.2.1
+mlflow_version: 2.3.1
+model_uuid: 5ba1e75e4e0f4cecb00d19495f3d7143
+run_id: 6a8a6f76dcf0482a877913af15707b21
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"name": "CreditScore", "type": "double"}, {"name": "Geography", "type":
+    "string"}, {"name": "Gender", "type": "string"}, {"name": "Age", "type": "double"},
+    {"name": "Balance", "type": "double"}, {"name": "NumOfProducts", "type": "double"},
+    {"name": "IsActiveMember", "type": "integer"}]'
+  outputs: '[{"name": "Exited", "type": "integer"}]'
+utc_time_created: '2023-05-09 05:12:13.518510'

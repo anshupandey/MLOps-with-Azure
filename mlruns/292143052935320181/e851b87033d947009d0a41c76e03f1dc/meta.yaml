@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/AI/MLOps/EYMAY23/MLOps-with-Azure/mlruns/292143052935320181/e851b87033d947009d0a41c76e03f1dc/artifacts
+end_time: 1683604172049
+entry_point_name: ''
+experiment_id: '292143052935320181'
+lifecycle_stage: active
+run_id: e851b87033d947009d0a41c76e03f1dc
+run_name: puzzled-fawn-187
+run_uuid: e851b87033d947009d0a41c76e03f1dc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683604162363
+status: 3
+tags: []
+user_id: anshu

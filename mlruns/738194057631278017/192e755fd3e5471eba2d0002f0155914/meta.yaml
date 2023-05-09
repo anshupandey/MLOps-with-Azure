@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/AI/MLOps/EYMAY23/MLOps-with-Azure/mlruns/738194057631278017/192e755fd3e5471eba2d0002f0155914/artifacts
+end_time: 1683595395831
+entry_point_name: ''
+experiment_id: '738194057631278017'
+lifecycle_stage: active
+run_id: 192e755fd3e5471eba2d0002f0155914
+run_name: wistful-skink-571
+run_uuid: 192e755fd3e5471eba2d0002f0155914
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683595384297
+status: 3
+tags: []
+user_id: anshu

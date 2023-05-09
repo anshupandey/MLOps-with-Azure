@@ -1,0 +1,2 @@
+DecisionTreeClassifier(class_weight='balanced', max_depth=8,
+                       min_samples_leaf=20, random_state=5)

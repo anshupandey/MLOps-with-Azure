@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/AI/MLOps/EYMAY23/MLOps-with-Azure/mlruns/738194057631278017/fe2158938a6f42c185aef29cb4c8ad5d/artifacts
+end_time: 1683565217662
+entry_point_name: ''
+experiment_id: '738194057631278017'
+lifecycle_stage: active
+run_id: fe2158938a6f42c185aef29cb4c8ad5d
+run_name: awesome-stork-525
+run_uuid: fe2158938a6f42c185aef29cb4c8ad5d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683565217586
+status: 4
+tags: []
+user_id: anshu

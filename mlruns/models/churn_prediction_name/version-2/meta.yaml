@@ -1,0 +1,13 @@
+aliases: []
+creation_timestamp: 1683613755879
+current_stage: Production
+description: ''
+last_updated_timestamp: 1683614399562
+name: churn_prediction_name
+run_id: 5441d28dbeea4fc7829b5224b745fa16
+run_link: ''
+source: file:///d:/AI/MLOps/EYMAY23/MLOps-with-Azure/mlruns/292143052935320181/5441d28dbeea4fc7829b5224b745fa16/artifacts/model
+status: READY
+status_message: null
+user_id: null
+version: 2

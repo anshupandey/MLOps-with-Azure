@@ -1,0 +1,2 @@
+ColumnTransformer(remainder='passthrough',
+                  transformers=[('ohe', OneHotEncoder(drop='first'), [1, 2])])
