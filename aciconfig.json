@@ -1,0 +1,10 @@
+{
+    "computeType":"aci",
+    "containerResourceRequirement":
+    {
+        "cpu":1,
+        "memoryInGB":1
+    },
+    "location":"westus",
+
+}
