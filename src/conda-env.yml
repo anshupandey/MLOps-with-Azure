@@ -1,0 +1,10 @@
+name:basic-env-cpu
+channel:
+- conda-forge
+dependencies:
+- python=3.7
+- scikit-learn
+- pandas
+- numpy 
+- matplotlib
+- tensorflow
