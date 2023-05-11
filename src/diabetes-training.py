@@ -32,3 +32,8 @@ print('Accuracy:', acc)
 y_scores = model.predict_proba(X_test)
 auc = roc_auc_score(y_test,y_scores[:,1])
 print('AUC: ' + str(auc))
+
+#import os
+#os.mkdir(r"azureml://jobs/diabetes-train-cluster/user_logs/models")
+import joblib
+joblib.dump(model,r"model.pkl")
