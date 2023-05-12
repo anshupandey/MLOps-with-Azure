@@ -16,6 +16,8 @@ X, y = diabetes[['Pregnancies','PlasmaGlucose','DiastolicBloodPressure','Triceps
 # split data into training set and test set
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.30, random_state=0)
 
+
+
 # set regularization hyperparameter
 reg = 0.01
 
@@ -33,7 +35,7 @@ y_scores = model.predict_proba(X_test)
 auc = roc_auc_score(y_test,y_scores[:,1])
 print('AUC: ' + str(auc))
 
-#import os
-#os.mkdir(r"azureml://jobs/diabetes-train-cluster/user_logs/models")
+import os
 import joblib
-joblib.dump(model,r"model.pkl")
+os.makedirs('outputs', exist_ok=True)
+joblib.dump(value=model, filename='outputs/model.pkl')
