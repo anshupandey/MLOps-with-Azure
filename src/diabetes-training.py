@@ -37,5 +37,9 @@ print('AUC: ' + str(auc))
 
 import os
 import joblib
+
 os.makedirs('outputs', exist_ok=True)
-joblib.dump(value=model, filename='outputs/model.pkl')
+file = open("outputs/version.txt","w")
+file.write(str(joblib.__version__))
+file.close()
+joblib.dump(model, open("outputs/model.pkl","wb"))
