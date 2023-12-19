@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/Repos/MLOps-with-Azure/mlruns/382731324901446122/dabafa499d894671987389986f10205b/artifacts
+end_time: 1702981563704
+entry_point_name: ''
+experiment_id: '382731324901446122'
+lifecycle_stage: active
+run_id: dabafa499d894671987389986f10205b
+run_name: rambunctious-cow-688
+run_uuid: dabafa499d894671987389986f10205b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702981555908
+status: 3
+tags: []
+user_id: Anshu Pandey

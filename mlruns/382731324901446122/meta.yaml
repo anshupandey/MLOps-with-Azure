@@ -1,0 +1,6 @@
+artifact_location: file:///d:/Repos/MLOps-with-Azure/mlruns/382731324901446122
+creation_time: 1702981552138
+experiment_id: '382731324901446122'
+last_update_time: 1702981552138
+lifecycle_stage: active
+name: insurance-prediction

@@ -1,0 +1,9 @@
+digest: d4f014fe
+name: dataset
+profile: '{"num_rows": 268, "num_elements": 1072}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "oh__Gender"}, {"type": "double",
+  "name": "oh__smoker"}, {"type": "double", "name": "remainder__age"}, {"type": "double",
+  "name": "remainder__bmi"}]}'
+source: '{"tags": {"mlflow.user": "Anshu Pandey", "mlflow.source.name": "c:\\ProgramData\\anaconda3\\lib\\site-packages\\ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code
